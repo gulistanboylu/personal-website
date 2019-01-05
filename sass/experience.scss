@@ -1,0 +1,63 @@
+.experience {
+  padding: 30px;
+  h1 {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 30px 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .time-line-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 600px));
+    grid-gap: 30px;
+    justify-content: center;
+    position: relative;
+  }
+  h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  h5 {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
+  h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+  .left {
+    border-right: 1px solid #ccc;
+    padding-right: 30px;
+    text-align: right;
+  }
+  i {
+    color: crimson;
+    position: absolute;
+    font-size: 10px;
+    left: 48.56%;
+    z-index: 1;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .experience {
+    .left {
+      border-right: white;
+      text-align: left;
+    }
+    .title {
+      order: 0;
+    }
+    .position {
+      order: 1;
+    }
+    i {
+      display: none;
+    }
+  }
+}

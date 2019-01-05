@@ -1,0 +1,36 @@
+.education-container {
+  background-color: #f9fbfd;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+  justify-content: center;
+  padding: 0px 30px;
+  .education-title {
+    border-bottom: 1px solid #f0f0f0;
+    grid-column: 1 / -1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .department {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .location {
+    font-weight: 300;
+  }
+  .fa {
+    color: crimson;
+    font-size: 0.5rem;
+  }
+  span {
+    background: #b2c1ce;
+    display: inline-block;
+    height: 1px;
+    margin-bottom: 3px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,26 @@
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,900");
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background-color: white; }
+
+.nav-bar ul {
+  margin: 20px 0px;
+  list-style: none;
+  text-align: center; }
+  .nav-bar ul li {
+    display: inline-block; }
+  .nav-bar ul a {
+    margin: 0px 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .nav-bar ul a:hover {
+      color: #b80f0a;
+      font-size: 30px; }
+
+.hero-image {
+  background-image: url("images/gulistan.jpeg"); } */
