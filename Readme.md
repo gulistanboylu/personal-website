@@ -1,7 +1,11 @@
 # Personel Website
 
 > A personal website with sass and gulp.
-> Link: http://gulistan-cv.s3-website.eu-west-2.amazonaws.com/
+
+## Preview
+
+[![Gulistan CV Preview](/gulistan-cv-preview.png)]
+**[View Live Preview](http://gulistan-cv.s3-website.eu-west-2.amazonaws.com/)**
 
 ## Build Setup
 
