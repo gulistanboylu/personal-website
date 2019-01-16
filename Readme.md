@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Gulistan CV Preview](/gulistan-cv-preview.png)]
+[![Gulistan CV Preview](public/gulistan-cv-preview.png)]
 **[View Live Preview](http://gulistan-cv.s3-website.eu-west-2.amazonaws.com/)**
 
 ## Build Setup
